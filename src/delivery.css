@@ -1,0 +1,20 @@
+.shipping-panel { margin-top: 20px; min-width: 0; }
+.shipping-select-label { display: block; font-size: 12px; font-weight: 800; margin-bottom: 9px; }
+.shipping-panel > select { width: 100%; min-width: 0; padding: 12px; border: 1px solid #cddfd2; border-radius: 8px; background: #fcfefb; color: #34574a; font-size: 12px; }
+.shipping-rates { margin: 18px 0; border: 1px solid #dfebe2; border-radius: 10px; overflow: hidden; }
+.shipping-rates > div { display: flex; align-items: start; justify-content: space-between; gap: 18px; padding: 14px; border-bottom: 1px solid #e5eee6; color: #64816f; font-size: 12px; line-height: 1.7; }
+.shipping-rates > div:last-child { border-bottom: 0; }
+.shipping-rates > div.is-selected { background: #edf6ef; color: #345e4b; }
+.shipping-rates strong { flex-shrink: 0; color: #407c67; }
+.shipping-rates small { display: block; font-size: 10px; color: #6c9580; margin-top: 4px; }
+.shipping-explanation { padding: 16px; background: #f5f9f2; border-radius: 10px; }
+.shipping-explanation h3 { font-size: 13px; margin: 0 0 9px; }
+.shipping-explanation p,.shipping-promo,.shipping-pending,.shipping-summary-zone { font-size: 11px; line-height: 1.8; color: #6b8272; }
+.shipping-explanation p:last-child { margin-bottom: 0; }
+.shipping-promo { color: #407c60; padding-left: 12px; border-left: 3px solid #93bda4; margin-top: 16px; }
+.shipping-pending { color: #8a6952; background: #fcf7ed; padding: 12px; border-radius: 8px; }
+.shipping-summary-zone { margin: -6px 0 18px; color: #5f806c; }
+.checkout-summary .price-breakdown > div { align-items: start; }
+.checkout-summary .price-breakdown > div > strong { text-align: right; }
+.checkout-summary .price-breakdown > div > strong.shipping-price-pending { white-space: normal; max-width: 170px; }
+@media(max-width:620px) { .shipping-rates > div { padding: 12px; gap: 12px; } .shipping-panel > select { font-size: 12px; } }
